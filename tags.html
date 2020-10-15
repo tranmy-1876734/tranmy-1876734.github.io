@@ -4,11 +4,12 @@
         <title>My's Website</title>
     </head>
     <body>
-        <h1>My Tran</h1>
-        <h2>About Me</h2>
-        <p>I am a senior studying Computer Science at UW.</p>
-        <p>I like to take photos.</p>
-        
+        <section style="font-family: 'Courier New', Courier, monospace;">
+            <h1>My Tran</h1>
+            <h2>About Me</h2>
+            <p>I am a senior studying <strong>Computer Science</strong> at UW.</p>
+            <p>I like to take photos.</p>
+        </section>
         <h2>My Favorite Websites</h2>
         <ul>
             <li>
@@ -28,15 +29,27 @@
             </li>
         </ul>
 
-        <h2>My Favorite Pictures</h2>
-        <a href="https://thatskygame.com/news/teaser-season-of-prophecy"> 
-            <img src="https://admin.thatskygame.com/uploads/large_Prophecy_Art_169_7eeda4b2c3.png"
-                 title="Teaser: Season of Prophecy">
-        </a>
-        <a href="https://thatskygame.com/news/season-of-prophecy-live-as-sky-reaches-50-million-downloads"> 
-            <img src="https://admin.thatskygame.com/uploads/AP_08_bannersmall_a1347c5fe4.png"
-                 title="Season of Prophecy Live">
-        </a>
+        <div>
+            <h2>My Favorite Pictures</h2>
+            <h3>Teaser: Season of Prophecy</h3>
+            <a href="https://thatskygame.com/news/teaser-season-of-prophecy"> 
+                <img src="https://admin.thatskygame.com/uploads/large_Prophecy_Art_169_7eeda4b2c3.png"
+                    title="Teaser: Season of Prophecy" 
+                    style="width:100px;height:100px;margin:5px">
+            </a>
+            <h3>Season of Prophecy Live</h3>
+            <a href="https://thatskygame.com/news/season-of-prophecy-live-as-sky-reaches-50-million-downloads"> 
+                <img src="https://admin.thatskygame.com/uploads/AP_08_bannersmall_a1347c5fe4.png"
+                    title="Season of Prophecy Live"  
+                    style="width:100px;height:100px;margin:5px">
+            </a>
+        </div>
+        <div style="background-color:powderblue">
+            <h2>Video sample</h2>
+            <video width="320" height="240" controls>
+                <source src="sky.mp4" type="video/mp4">
+            </video>
+        </div>
         
     </body>
 </html>
